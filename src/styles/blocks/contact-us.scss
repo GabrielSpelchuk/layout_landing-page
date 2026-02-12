@@ -1,4 +1,18 @@
 .contact-us {
+  &__wrapper {
+    padding-inline: 20px;
+
+    @include on-tablet {
+      padding-inline: 78px;
+    }
+
+    @include on-desktop {
+      padding-inline: 120px;
+      max-width: 1020px;
+      margin-inline: auto;
+    }
+  }
+
   &__content {
     @include page-grid;
 

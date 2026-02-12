@@ -22,8 +22,13 @@
       rel="stylesheet"
     />
     <link
+      rel="icon"
+      type="image/x-icon"
+      href="./images/icons/b&o.png"
+    />
+    <link
       rel="stylesheet"
-      href="styles/index.scss"
+      href="src/styles/index.scss"
     />
     <title>Nothing</title>
   </head>
@@ -37,14 +42,14 @@
               class="top-bar__logo-link"
             >
               <img
-                src="images/logo.png"
+                src="./images/logo.png"
                 alt="Nothing logo"
                 class="top-bar__logo"
               />
             </a>
             <div class="top-bar__icons">
               <a
-                href="#"
+                href="tel:+1 234 5555-55-55"
                 class="icon icon--phone"
               ></a>
               <a
@@ -75,7 +80,7 @@
             class="top-bar__logo-link"
           >
             <img
-              src="images/logo.png"
+              src="./images/logo.png"
               alt="Nothing logo"
               class="top-bar__logo"
             />
@@ -141,8 +146,8 @@
     </aside>
 
     <main class="main">
-      <div class="container">
-        <div class="main__content">
+      <div class="main__content">
+        <div class="container">
           <section
             class="recommended"
             id="recommended"
@@ -193,7 +198,9 @@
               </article>
             </div>
           </section>
+        </div>
 
+        <div class="container">
           <section
             class="categories"
             id="categories"
@@ -299,12 +306,14 @@
               </div>
             </div>
           </section>
+        </div>
 
-          <div class="main__photo"></div>
-          <section
-            class="about-us"
-            id="about-us"
-          >
+        <div class="main__photo"></div>
+        <section
+          class="about-us"
+          id="about-us"
+        >
+          <div class="about-us__content">
             <h2 class="section-title about-us__title">
               Timeless, for 50 years and counting
             </h2>
@@ -314,14 +323,15 @@
               transcends time by bridging the gap between one of our iconic
               designs from 1972 and today’s cutting-edge digital technology.
             </p>
-          </section>
+          </div>
+        </section>
 
-          <section
-            class="contact-us"
-            id="contact-us"
-          >
+        <section
+          class="contact-us"
+          id="contact-us"
+        >
+          <div class="contact-us__wrapper">
             <h2 class="section-title">Contact us</h2>
-
             <div class="contact-us__content">
               <div class="contact-us__form">
                 <form
@@ -347,11 +357,9 @@
                     placeholder="Message"
                     class="contact-us__textarea"
                   ></textarea>
+                  <button class="contact-us__button">Send</button>
                 </form>
-
-                <button class="contact-us__button">Send</button>
               </div>
-
               <div class="contact-us__contact">
                 <div class="contact-us__block">
                   <p class="contact-us__contact-title">Phone</p>
@@ -394,8 +402,8 @@
                 </div>
               </div>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
       </div>
     </main>
 
