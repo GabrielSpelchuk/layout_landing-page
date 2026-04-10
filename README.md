@@ -20,8 +20,7 @@ Follow these steps to set up the project locally
 1. Clone the repo
 ```
 git clone https://github.com/GabrielSpelchuk/layout_landing-page.git
-cd project-name
-git switch develop
+cd layout_landing-page
 ```
 2. Install dependencies
 ```
